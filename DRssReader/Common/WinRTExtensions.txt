@@ -1,0 +1,23 @@
+﻿RichtTextColumns Template:
+
+<ScrollViewer HorizontalScrollBarVisibility="Auto" HorizontalScrollMode="Auto" VerticalScrollBarVisibility="Disabled" VerticalScrollMode="Disabled"  Padding="0 0 0 40">
+    <common:RichTextColumns VerticalAlignment="Top">
+        <RichTextBlock  Width="360" Style="{StaticResource ItemRichTextStyle}"  TextAlignment="Justify">
+            <Paragraph>
+                Длинный <Bold>жирный</Bold> текст
+            </Paragraph>
+        </RichTextBlock>
+        <common:RichTextColumns.ColumnTemplate>
+            <DataTemplate>
+                <RichTextBlockOverflow Width="360" Margin="40,0,0,0">
+                </RichTextBlockOverflow>
+            </DataTemplate>
+        </common:RichTextColumns.ColumnTemplate>
+    </common:RichTextColumns>
+</ScrollViewer>
+
+RichTextBlock BindableProperty;
+winRtExtensionsCore:RichTextBlockExtensions.HtmlContent="{Binding Html}" 
+
+<RichTextBlock winRtExtensionsCore:RichTextBlockExtensions.HtmlContent="{Binding Html}" Width="360" Style="{StaticResource ItemRichTextStyle}">
+</RichTextBlock

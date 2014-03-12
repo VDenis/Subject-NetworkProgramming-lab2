@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="31620vdlasov.PCRss" Publisher="CN=8178E519-2A87-44BB-B812-E9246C057D1D" Version="1.0.0.7" />
+  <Properties>
+    <DisplayName>PC Новости Rss</DisplayName>
+    <PublisherDisplayName>vdlasov</PublisherDisplayName>
+    <Logo>Assets\new\_StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="DRssReader.App">
+      <VisualElements DisplayName="PC Новости Rss" Logo="Assets\new\_Logo1.png" SmallLogo="Assets\new\_SmallLogo.png" Description="PC Новости Rss представляет собой клиент для чтения RSS новостей с компьютерных сайтов: &quot;ixbt.com&quot;, &quot;hi-news.ru&quot; и &quot;igromania.ru&quot;." ForegroundText="light" BackgroundColor="#FF7302">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\new\_WideLogo1.png" />
+        <SplashScreen Image="Assets\new\_SplashScreen.png" BackgroundColor="#FF7302" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+          <Rotation Preference="portraitFlipped" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.search" />
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

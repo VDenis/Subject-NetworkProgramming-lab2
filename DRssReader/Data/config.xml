@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<config>
+  <application>
+    <settings>
+      <title>IT-reader</title>
+      <name>MyReader</name>
+    </settings>
+  </application>
+  <feeds>
+    <feed>
+      <id>1</id>
+      <title>3D Новости</title>
+      <url>http://www.3dnews.ru/feeds/review/</url>
+      <description>it news</description>
+      <type>rss</type>
+      <view>variablesize</view>
+      <policy>xz</policy>
+    </feed>
+    <feed>
+      <id>1</id>
+      <title>IXBT Новости</title>
+      <url>http://www.ixbt.com/export/hardnews.rss</url>
+      <description>it news</description>
+      <type>rss</type>
+      <view>variablesize</view>
+      <policy>xz</policy>
+    </feed>
+    <!--
+    <feed>
+      <id>2</id>
+      <title>bit-tech All</title>
+      <url>http://feeds2.feedburner.com/bit-tech/all</url>
+      <description>it news</description>
+      <type>images</type>
+      <view>variablesize</view>
+      <policy>http://www.dennis.co.uk/privacy</policy>
+    </feed>-->
+
+    <!--<feed>
+      <id>3</id>
+      <title>bit-tech Hardware</title>
+      <url>http://feeds2.feedburner.com/bit-tech/hardware</url>
+      <description>it news</description>
+      <type>images</type>
+      <view>variablesize</view>
+      <policy>http://www.dennis.co.uk/privacy</policy>
+    </feed>
+
+    <feed>
+      <id>4</id>
+      <title>bit-tech Gaming</title>
+      <url>http://feeds2.feedburner.com/bit-tech/gaming</url>
+      <description>it news</description>
+      <type>images</type>
+      <view>variablesize</view>
+      <policy>http://www.dennis.co.uk/privacy</policy>
+    </feed>-->
+
+  <!--<feed>
+    <id>5</id>
+    <title>twitter</title>
+    <url>http://www.twitter-rss.com/user_timeline.php?screen_name=3D_News</url>
+    <description>твиты</description>
+    <type>images</type>
+    <view>variablesize</view>
+    <policy>xz</policy>
+  </feed>-->
+  
+  <feed>
+    <id>5</id>
+    <title>Игромания Железо</title>
+    <url>http://ru.igromana.feedsportal.com/c/33877/f/656330/index.rss</url>
+    <description>железные новости</description>
+    <type>images</type>
+    <view>variablesize</view>
+    <policy>xz</policy>
+  </feed>
+    
+   <feed>
+      <id>4</id>
+      <title>Новости Высоких Технологий</title>
+      <url>http://feeds.feedburner.com/hi-news_ru</url>
+      <description>hi tech news</description>
+      <type>images</type>
+      <view>variablesize</view>
+      <policy>xz</policy>
+    </feed>
+
+  <!--<feed>
+    <id>5</id>
+    <title>twitter</title>
+    <url>http://www.twitter-rss.com/user_timeline.php?screen_name=3D_News</url>
+    <description>твиты</description>
+    <type>images</type>
+    <view>variablesize</view>
+    <policy>xz</policy>
+  </feed>-->
+  </feeds>
+</config>
